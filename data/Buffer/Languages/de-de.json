@@ -6,11 +6,11 @@
         "title": "Modifizierer & Einstellungen",
         "settings": "Einstellungen",
         "language": "Sprache",
-        "font_size": "Schriftgröße",
+        "font_size": "Schriftgroesse",
         "font_size_apply": "Anwenden",
-        "about": "Über",
+        "about": "Ueber",
         "author": "Autor",
-        "translator": "Übersetzer",
+        "translator": "Üebersetzer",
         "version": "Version"
     },
     "base": {
@@ -32,8 +32,8 @@
             "healing_tooltip": "Fehlende Gesundheit wird wiederhergestellt."
         },
         "blights_and_conditions":{
-            "title": "Krankheiten und Zustände",
-            "tooltip": "Vorbeugung gegen Krankheiten und Zustände",
+            "title": "Krankheiten und Zustaende",
+            "tooltip": "Vorbeugung gegen Krankheiten und Zustaende",
             "blights": {
                 "title": "Krankheiten",
                 "fire": "Feuer",
@@ -44,12 +44,12 @@
                 "all": "Alle"
             },
             "conditions":{
-                "title": "Zustände",
+                "title": "Zustaende",
                 "poison": "Gift",
                 "sleep": "Schlaf",
-                "paralyze": "Lähmung",
+                "paralyze": "Laehmung",
                 "blast": "Explosion",
-                "stun": "Betäubung",
+                "stun": "Betaeubung",
                 "defense_down": "Verteidigung unten",
                 "bleed": "Bluten",
                 "stench": "Gestank",
@@ -63,20 +63,20 @@
             "title": "Gegenstandsbuffs",
             "might_pill": "Macht Pille",
             "adamant_pill": "Adamant Pille",
-            "demon_powder": "Dämonenpulver",
+            "demon_powder": "Daemonenpulver",
             "hardshell_powder": "Hartschalenpulver",
-            "cool_drink": "Kühlendes Getränk",
-            "hot_drink": "Heißes Getränk",
+            "cool_drink": "Kuehlendes Getraenk",
+            "hot_drink": "Heisses Getraenk",
             "dash_juice": "Dash Saft",
             "imunizer": "Imunizierer"
         },
-        "unlimited_sharpness": "Unbegrenzte Schärfe"
+        "unlimited_sharpness": "Unbegrenzte Schaerfe"
     },
 
     "great_sword": {
-        "title": "Großschwert",
+        "title": "Grossschwert",
         "true_charge_boost": "Echter Ladungsboost",
-        "true_charge_boost_tooltip": "Anfänglicher Bonus für echte Aufladung",
+        "true_charge_boost_tooltip": "Anfaenglicher Bonus fuer echte Aufladung",
         "instant_charge": "Sofortige Aufladung"
     },
     "sword_and_shield": {
@@ -84,13 +84,13 @@
     },
     "dual_blades": {
         "title": "Doppelklingen",
-        "demon_gauge": "Volle Dämonenverstärkung",
-        "demon_boost": "Dämonenverstärkung aktivieren"
+        "demon_gauge": "Volle Daemonenverstaerkung",
+        "demon_boost": "Daemonenverstaerkung aktivieren"
     },
     "long_sword": {
         "title": "Langschwert",
         "aura_level": "Aura level",
-        "aura_level_tooltip": "Wenn Sie den Wert von 0 auf 1 setzen, müssen Sie das Schwert füllen, um die Aura zu aktivieren.",
+        "aura_level_tooltip": "Wenn Sie den Wert von 0 auf 1 setzen, muessen Sie das Schwert fuellen, um die Aura zu aktivieren.",
         "max_aura_gauge": "Maximale Auraanzeige",
         "max_spirit_gauge": "Max spirituelle Pegel"
     },
@@ -122,13 +122,13 @@
         "title": "Lanze",
         "counter_charge_level": "Konter angriff level",
         "rush_level": "Eiltempo",
-        "infinite_backstep": "Unendlicher Rückwärtsschritt"
+        "infinite_backstep": "Unendlicher Rueckwaertsschritt"
     },
     "gunlance": {
         "title": "Waffenlanze",
-        "shell_level": "Gehäuse Level",
+        "shell_level": "Gehaeuse Level",
         "infinite_wyvern_fire": "Unendliches Wyvernfeuer",
-        "infinite_backstep": "Unendlicher Rückwärtsschritt",
+        "infinite_backstep": "Unendlicher Rueckwaertsschritt",
         "instant_charge": "Sofortige Aufladung", 
         "instant_charge_tooltip": "Man muss sie einen Moment lang festhalten und dann loslassen, um zu feuern.",
         "free_charge_shot": "Kostenloser Schuss"
@@ -139,8 +139,8 @@
         "charge_level": "Stufe der Aufladung",
         "all_arrow_types": "Alle Pfeilarten",
         "unlimited_bottles": "Unbegrenzte Flaschen",
-        "tetrad_shot_active": "Tetrad shot support active",
-        "max_trick_arrow_gauge": "Max Trick Pfeilstärke"
+        "tetrad_shot_active": "Unterstuetzung fuer Tetradschuesse aktiv",
+        "max_trick_arrow_gauge": "Max Trick Pfeilstaerke"
     },
     "light_bowgun": {
         "title": "Leichtes Bogengewehr",
@@ -154,13 +154,13 @@
         "max_special_ammo": "Maximale Spezialmunition",
         "max_wyvern_howl": "Max Wyvern heulen",
         "max_gatling_hits": "Maximale Gattertreffer",
-        "max_gatling_hits_tooltip": "Betrifft nur Wyvernherz-Zündung"
+        "max_gatling_hits_tooltip": "Betrifft nur Wyvernherz-Zuendung"
     },
 
     "charge_blade": {
         "title": "Ladeklinge",
-        "max_phials": "Max Fläschchen",
-        "overcharge_phials": "Überladene Fläschchen",
+        "max_phials": "Max Flaeschchen",
+        "overcharge_phials": "Ueberladene Flaeschchen",
         "shield_enhanced": "Schutzschild verbessert",
         "sword_enhanced": "Schwert verbessert",
         "axe_enhanced": "Axt verbessert"
