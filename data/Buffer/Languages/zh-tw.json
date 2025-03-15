@@ -1,8 +1,8 @@
 {
     "_USE_FONT": "NotoSansSC-Regular.otf",
-    "_TRANSLATOR": "Github Copilot",
+    "_TRANSLATOR": "Paver",
     "window": {
-        "toggle_button": "切換緩衝 GUI",
+        "toggle_button": "開關增益 GUI",
         "title": "修改器和設置",
         "settings": "設置",
         "language": "語言",
@@ -15,10 +15,10 @@
         "bindings": {
             "title": "快捷鍵",
             "keyboard": "鍵盤",
-            "gamepad": "手柄",
+            "gamepad": "控制器",
             "remove": "移除",
             "add_keyboard": "添加鍵盤快捷鍵",
-            "add_gamepad": "添加手柄快捷鍵",
+            "add_gamepad": "添加控制器快捷鍵",
             "choose_modification": "選擇修改功能",
             "on_value": "目標值",
             "to_listen": "開始記錄快捷鍵",
@@ -42,17 +42,17 @@
             "unlimited": "無限耐力"
         },
         "health": {
-            "title": "健康",
-            "max": "最大健康",
-            "unlimited": "無限健康",
+            "title": "體力",
+            "max": "最大體力",
+            "unlimited": "無限體力",
             "healing": "治療",
-            "healing_tooltip": "任何缺失的健康都將變得可恢復。"
+            "healing_tooltip": "損失的體力將會全部變為可恢復狀態(紅條)。"
         },
         "blights_and_conditions": {
-            "title": "異常狀態和條件",
-            "tooltip": "防止異常狀態和條件",
+            "title": "屬性異常和狀態異常",
+            "tooltip": "防止屬性異常和狀態異常",
             "blights": {
-                "title": "異常狀態",
+                "title": "屬性異常",
                 "fire": "火",
                 "water": "水",
                 "ice": "冰",
@@ -61,33 +61,33 @@
                 "all": "全部"
             },
             "conditions": {
-                "title": "條件",
+                "title": "狀態異常",
                 "poison": "毒",
                 "sleep": "睡眠",
                 "paralyze": "麻痺",
-                "blast": "爆炸",
-                "stun": "眩暈",
-                "defense_down": "防禦下降",
-                "bleed": "流血",
-                "stench": "臭氣",
+                "blast": "爆破",
+                "stun": "昏厥",
+                "defense_down": "防禦力下降",
+                "bleed": "裂傷",
+                "stench": "惡臭",
                 "sticky": "黏著",
-                "frenzy": "狂暴",
+                "frenzy": "狂龍症",
                 "frozen": "凍結",
                 "all": "全部 "
             }
         },
         "item_buffs": {
             "title": "物品增益",
-            "might_pill": "力量藥丸",
-            "adamant_pill": "堅韌藥丸",
-            "demon_powder": "惡魔粉",
-            "hardshell_powder": "硬殼粉",
-            "mega_demondrug": "超級惡魔藥",
-            "mega_armorskin": "超級護甲藥",
+            "might_pill": "怪力藥丸",
+            "adamant_pill": "忍耐藥丸",
+            "demon_powder": "鬼人粉塵",
+            "hardshell_powder": "硬化粉塵",
+            "mega_demondrug": "鬼人藥·大",
+            "mega_armorskin": "硬化藥·大",
             "cool_drink": "冷飲",
             "hot_drink": "熱飲",
-            "dash_juice": "衝刺果汁",
-            "imunizer": "免疫劑"
+            "dash_juice": "強走藥",
+            "imunizer": "活力劑"
         },
         "unlimited_sharpness": "無限鋒利度"
     },
@@ -96,22 +96,22 @@
         "title": "大劍",
         "true_charge_boost": "真蓄力提升",
         "true_charge_boost_tooltip": "真蓄力初始命中加成",
-        "instant_charge": "瞬間充能"
+        "instant_charge": "瞬間續力"
     },
     "sword_and_shield": {
-        "title": "劍與盾"
+        "title": "單手劍"
     },
     "dual_blades": {
         "title": "雙刀",
-        "demon_gauge": "滿惡魔計量表",
-        "demon_boost": "激活惡魔提升"
+        "demon_gauge": "滿鬼人計量表",
+        "demon_boost": "鬼人閃身狀態"
     },
     "long_sword": {
         "title": "太刀",
         "aura_level": "氣刃等級",
-        "aura_level_tooltip": "如果從0設置為1，您需要填滿計量表以激活氣刃",
-        "max_aura_gauge": "最大氣刃計量表",
-        "max_spirit_gauge": "最大精神計量表"
+        "aura_level_tooltip": "如果從0設置為1，你需要手動提升到白刃已啟動此功能",
+        "max_aura_gauge": "無限氣刃計量表",
+        "max_spirit_gauge": "無限練氣計量表"
     },
     "insect_glaive": {
         "title": "操蟲棍",
@@ -119,26 +119,26 @@
             "title": "獵蟲",
             "power": "力量",
             "speed": "速度",
-            "recovery": "恢復",
-            "unlimited_stamina": "無限耐力",
+            "recovery": "耐力",
+            "unlimited_stamina": "無限獵蟲耐力",
             "fast_charge": "獵蟲快速充能",
             "charge_time": "獵蟲充能時間%",
-            "charge_time_tooltip": "\"充能時間%\"表示最大充能所需時間佔原始充能時間的百分比。數值越小，充能越快。"
+            "charge_time_tooltip": "\"充能時間%\"最大充能所需時間佔原始充能時間的百分比。數值越小，充能越快。"
         },
         "red": "紅色",
         "orange": "橙色",
         "white": "白色",
         "infinite_air_attacks": "無限空中攻擊",
-        "fast_charge": "快速充能",
-        "charge_time": "充能時間%",
-        "charge_time_tooltip": "\"充能時間%\"表示最大充能所需時間佔原始充能時間的百分比。數值越小，充能越快。",
-        "unrestricted_charge": "無限製充能",
-        "unrestricted_charge_tooltip": "可以在某些原本不允許充能的動作中充能（如蓄力攻擊中，收刀狀態）"
+        "fast_charge": "快速續力",
+        "charge_time": "續力時間%",
+        "charge_time_tooltip": "\"續力時間%\"最大續力所需時間佔原始續力時間的百分比。數值越小，充能越快。",
+        "unrestricted_charge": "無限制續力",
+        "unrestricted_charge_tooltip": "可以在某些原本不允許續力的動作中續力（如蓄力攻擊中，收刀狀態）"
     },
 
     "hammer": {
         "title": "大錘",
-        "instant_charge": "瞬間充能"
+        "instant_charge": "瞬間續力"
     },
     "hunting_horn": {
         "title": "狩獵笛"
@@ -146,55 +146,55 @@
     
     "lance": {
         "title": "長槍",
-        "counter_charge_level": "反擊充能等級",
-        "rush_level": "衝鋒等級",
+        "counter_charge_level": "反擊續力等級",
+        "rush_level": "突進等級",
         "infinite_backstep": "無限後跳"
     },
     "gunlance": {
         "title": "銃槍",
-        "shell_level": "炮擊等級",
+        "shell_level": "炮擊威力等級",
         "infinite_wyvern_fire": "無限龍擊炮",
         "infinite_backstep": "無限後跳",
-        "instant_charge": "瞬間充能",
-        "instant_charge_tooltip": "需要稍微按住一會兒，然後放開以發射",
-        "free_charge_shot": "免費充能射擊"
+        "instant_charge": "砲擊瞬間續力",
+        "instant_charge_tooltip": "需要稍微按住續力，然後放開發射",
+        "free_charge_shot": "無限續力射擊"
     },
 
     "bow": {
         "title": "弓",
-        "charge_level": "充能等級",
-        "all_arrow_types": "所有箭類型",
+        "charge_level": "續力等級",
+        "all_arrow_types": "可填充所有瓶",
         "unlimited_bottles": "無限瓶",
-        "tetrad_shot_active": "四重射擊支援激活",
-        "max_trick_arrow_gauge": "最大技巧箭計量表"
+        "tetrad_shot_active": "啟用第四射擊",
+        "max_trick_arrow_gauge": "無限特殊箭計量表"
     },
     "light_bowgun": {
         "title": "輕弩",
-        "max_special_ammo": "最大特殊彈藥",
-        "max_rapid_shot": "最大速射",
-        "max_eagle_shot": "最大鷹擊充能",
-        "instant_eagle_shot_charge": "最大鷹擊充能"
+        "max_special_ammo": "無限特殊彈藥",
+        "max_rapid_shot": "無限速射計量表",
+        "max_eagle_shot": "無限集中特效彈",
+        "instant_eagle_shot_charge": "最大集中特效彈續力"
     },
     "heavy_bowgun": {
         "title": "重弩",
-        "max_special_ammo": "最大特殊彈藥",
-        "max_wyvern_howl": "最大龍吼",
+        "max_special_ammo": "無限特殊彈藥",
+        "max_wyvern_howl": "無限集中特效彈",
         "max_gatling_hits": "最大加特林命中",
-        "max_gatling_hits_tooltip": "僅影響龍心點火"
+        "max_gatling_hits_tooltip": "僅影響龍熱機關龍彈"
     },
 
     "charge_blade": {
         "title": "充能斧",
-        "max_phials": "最大瓶數",
-        "overcharge_phials": "過充瓶數",
+        "max_phials": "無限瓶",
+        "overcharge_phials": "無限充能瓶",
         "shield_enhanced": "盾強化",
         "sword_enhanced": "劍強化",
         "axe_enhanced": "斧強化"
     },
     "switch_axe": {
-        "title": "開關斧",
-        "max_charge": "最大充能",
-        "max_sword_charge": "最大劍充能",
-        "powered_axe": "強化斧"
+        "title": "斬擊斧",
+        "max_charge": "無限斬擊計量表(斧能量)",
+        "max_sword_charge": "無限覺醒計量表(劍能量)",
+        "powered_axe": "斧強化狀態"
     }
 }
